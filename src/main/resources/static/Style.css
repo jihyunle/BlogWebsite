@@ -2,15 +2,18 @@ body {
 
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
+    background-image: url('https://res.cloudinary.com/jihyunle/image/upload/v1550854259/aerial-3246120.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bloghome{
+    text-align: left;
+    color: white;
 }
 
 .card {
     background-color: #b0c4de;
 }
 
-.woodBackground {
-    background-image: url('https://res.cloudinary.com/jihyunle/image/upload/v1550854259/aerial-3246120.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}

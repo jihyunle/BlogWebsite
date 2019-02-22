@@ -7,16 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" th:href="@{/Style.css}" type="text/css"/>
 </head>
-<style>
-    body {
-        background-image: url('https://res.cloudinary.com/jihyunle/image/upload/v1550854259/aerial-3246120.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-    }
-
-</style>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!-- Navbar content -->
@@ -37,82 +29,80 @@
         </ul>
     </div>
 </nav>
-
-<!-- Background Image -->
 <div align="center">
     <div class="container" style="width:900px;">
         <br>
-        <h1 align="left text-white"><strong>Blog Home</strong></h1>
+        <h1 class="bloghome"><strong>Blog Home</strong></h1>
         <br>
 
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">Git Hub 1</h5>
                 <h7 class="date"><i>January 28, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#jan2819"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">Git Hub 2</h5>
                 <h7 class="date"><i>January 30, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#jan3019"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">Program Design</h5>
                 <h7 class="date"><i>February 4, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#feb0419"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">Algorithms</h5>
                 <h7 class="date"><i>February 6, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#feb0619"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">Core Java 1</h5>
                 <h7 class="date"><i>February 10, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#feb1019"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">Core Java 2</h5>
                 <h7 class="date"><i>February 13, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#feb1319"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">Object Orientated 1</h5>
                 <h7 class="date"><i>February 15, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#feb1519"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">Object Orientated 2</h5>
                 <h7 class="date"><i>February 17, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#feb1719"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">HTML</h5>
                 <h7 class="date"><i>February 19, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#feb1919"> View More</a></p>
             </div>
         </div>
         <div align="left" class="card text-white bg-dark mb-3">
             <div class="card-body">
                 <h5 class="card-title">CSS</h5>
                 <h7 class="date"><i>February 20, 2019</i></h7>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="#"> View More</a></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<a class="text-secondary" href="/blogposts#feb2019"> View More</a></p>
             </div>
         </div>
     </div>
