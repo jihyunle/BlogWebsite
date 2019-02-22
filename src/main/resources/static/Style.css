@@ -3,13 +3,24 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     background-image: url('https://res.cloudinary.com/jihyunle/image/upload/v1550854259/aerial-3246120.jpg');
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+
+}
+
+.bgimg{
+    background-image:  url('https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg');
+    opacity: 0.6;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .bloghome{
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
@@ -17,11 +28,11 @@ body {
     background-color: #b0c4de;
 }
 
-.blogpostscontainer{
+.blogpostscontainer, .cbg{
     background-image:
             linear-gradient(
-                    rgba(0, 0, 0, 0.4),
-                    rgba(0, 0, 0, 0.4)
+                    rgba(0, 0, 0, 0.6),
+                    rgba(0, 0, 0, 0.6)
             )
 }
 
